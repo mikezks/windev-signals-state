@@ -1,0 +1,301 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.3",
+  "deps": {
+    "@angular-architects/paper-design": "^1.0.3",
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/platform-server": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@angular/ssr": "^17.0.0",
+    "@ngrx/component": "^17.0.0",
+    "@ngrx/component-store": "^17.0.0",
+    "@ngrx/effects": "^17.0.0",
+    "@ngrx/entity": "^17.0.0",
+    "@ngrx/router-store": "^17.0.0",
+    "@ngrx/signals": "^17.0.0",
+    "@ngrx/store": "^17.0.0",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular-eslint/builder": "17.0.1",
+    "@angular-eslint/eslint-plugin": "17.0.1",
+    "@angular-eslint/eslint-plugin-template": "17.0.1",
+    "@angular-eslint/schematics": "17.0.1",
+    "@angular-eslint/template-parser": "17.0.1",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@ngrx/schematics": "^17.0.0",
+    "@ngrx/store-devtools": "^17.0.0",
+    "@softarc/eslint-plugin-sheriff": "^0.14.2",
+    "@softarc/sheriff-core": "^0.14.2",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
+    "eslint": "^8.53.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^17.0.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "11315009434247758875"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1597401214318836131"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "801349134404556368"
+      },
+      {
+        "file": "angular.json",
+        "hash": "1413755207865881321"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "16107804371450902423"
+      },
+      {
+        "file": "package.json",
+        "hash": "2557572794527606346"
+      },
+      {
+        "file": "projects/shell/.eslintrc.json",
+        "hash": "17492731598782304591"
+      },
+      {
+        "file": "projects/shell/server.ts",
+        "hash": "17556996765790181515"
+      },
+      {
+        "file": "projects/shell/src/app/app.component.ts",
+        "hash": "5108462081825653541"
+      },
+      {
+        "file": "projects/shell/src/app/app.config.server.ts",
+        "hash": "15184490126418035619"
+      },
+      {
+        "file": "projects/shell/src/app/app.config.ts",
+        "hash": "9062003996983443853"
+      },
+      {
+        "file": "projects/shell/src/app/app.routes.ts",
+        "hash": "9223741853101771964"
+      },
+      {
+        "file": "projects/shell/src/app/booking/+state/booking.state.ts",
+        "hash": "5526163993285832037"
+      },
+      {
+        "file": "projects/shell/src/app/booking/+state/router.state.ts",
+        "hash": "6336078841822257670"
+      },
+      {
+        "file": "projects/shell/src/app/booking/booking.routes.ts",
+        "hash": "10395971510352229385"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/features/edit/edit.component.html",
+        "hash": "11363482710543096441"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/features/edit/edit.component.ts",
+        "hash": "13288277485934557745"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/features/search/search.component.html",
+        "hash": "18338503477458361792"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/features/search/search.component.ts",
+        "hash": "402400266122941300"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/flight.routes.ts",
+        "hash": "15363280588632352072"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/index.ts",
+        "hash": "2054076437927308581"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/logic/data-access/flight.service.ts",
+        "hash": "5163803906233729595"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/logic/model/flight-filter.ts",
+        "hash": "11694179570820754584"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/logic/model/flight.ts",
+        "hash": "5258530917489039123"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/ui/card.component.ts",
+        "hash": "10857764199239698406"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/ui/flight-filter/flight-filter.component.html",
+        "hash": "9489407741116381000"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/ui/flight-filter/flight-filter.component.ts",
+        "hash": "7131462566739163044"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/ui/flight-filter/flight-filter.store.ts",
+        "hash": "4976594434683761130"
+      },
+      {
+        "file": "projects/shell/src/app/booking/flight/ui/flight-filter/reactive-context.util.ts",
+        "hash": "6289964535137757692"
+      },
+      {
+        "file": "projects/shell/src/app/booking/index.ts",
+        "hash": "4207618104451587912"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/features/edit/edit.component.html",
+        "hash": "11473220521419408159"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/features/edit/edit.component.ts",
+        "hash": "11612810713323442947"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/features/search/search.component.html",
+        "hash": "5984108621938072022"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/features/search/search.component.ts",
+        "hash": "3159567117727727175"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/index.ts",
+        "hash": "15624796897423980470"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/logic/data-access/passenger.service.ts",
+        "hash": "6234686771750203740"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/logic/model/passenger.ts",
+        "hash": "11098059099110001719"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/passenger.routes.ts",
+        "hash": "12129770380441590829"
+      },
+      {
+        "file": "projects/shell/src/app/booking/passenger/util/validation/passenger-status.validator.ts",
+        "hash": "850039529474949381"
+      },
+      {
+        "file": "projects/shell/src/app/core/features/home/home.component.ts",
+        "hash": "17805462491533236703"
+      },
+      {
+        "file": "projects/shell/src/app/core/index.ts",
+        "hash": "18326848676939732230"
+      },
+      {
+        "file": "projects/shell/src/app/core/ui/navbar/navbar.component.html",
+        "hash": "15230354473243748838"
+      },
+      {
+        "file": "projects/shell/src/app/core/ui/navbar/navbar.component.ts",
+        "hash": "572967420966486366"
+      },
+      {
+        "file": "projects/shell/src/app/core/ui/sidebar/sidebar.component.html",
+        "hash": "8400961974775409734"
+      },
+      {
+        "file": "projects/shell/src/app/core/ui/sidebar/sidebar.component.ts",
+        "hash": "2514892126735211579"
+      },
+      {
+        "file": "projects/shell/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "projects/shell/src/assets/paper-design/angular_gradient.png",
+        "hash": "7957953091301352892"
+      },
+      {
+        "file": "projects/shell/src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "projects/shell/src/index.html",
+        "hash": "14027655047425825358"
+      },
+      {
+        "file": "projects/shell/src/main.server.ts",
+        "hash": "9257623809215978365"
+      },
+      {
+        "file": "projects/shell/src/main.ts",
+        "hash": "4169901790405087765"
+      },
+      {
+        "file": "projects/shell/src/styles.scss",
+        "hash": "2917954890128038984"
+      },
+      {
+        "file": "projects/shell/tsconfig.app.json",
+        "hash": "15211542768575683844"
+      },
+      {
+        "file": "projects/shell/tsconfig.spec.json",
+        "hash": "13338856497352866793"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "6129086575770068681"
+      }
+    ]
+  }
+}
